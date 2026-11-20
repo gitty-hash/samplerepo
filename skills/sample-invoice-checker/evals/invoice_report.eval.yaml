@@ -3,7 +3,7 @@ description: Evaluate the synthetic duplicate-invoice report. Definitions are re
 checks:
   - artifact_exists
 rubrics:
-  correctness: For the provided sample, identify TEST-001 as duplicated, exclude 120.00 USD and report a payable total of 250.00 USD without double counting.
+  correctness: For the provided sample, identify TEST-001 as duplicated, exclude 120.00 USD and report a payable total of 250.00 USD without double counting. Vendor subtotals must be Demo Vendor A 120.00 USD and Demo Vendor B 130.00 USD.
   completeness: Include 4 input rows, 3 unique invoices, duplicate details, excluded amount, total payable and validation problems.
   writing_quality: Clearly distinguish the duplicate amount from the payable total and show currency amounts to two decimal places.
 llm_judges: 1

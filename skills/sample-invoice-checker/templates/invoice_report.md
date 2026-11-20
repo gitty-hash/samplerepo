@@ -11,5 +11,9 @@
 | Invoice ID | Occurrences | Excluded amount (USD) |
 |---|---|---|
 
+## Vendor subtotals
+| Vendor | Unique invoices | Payable amount (USD) |
+|---|---|---|
+
 ## Validation problems
 State any problems, or write None.

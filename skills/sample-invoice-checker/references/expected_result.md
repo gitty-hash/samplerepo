@@ -9,3 +9,7 @@
 - Validation problems: None
 
 The duplicate row is a planted condition. Correct handling identifies it and excludes the repeated 120.00 USD from the payable total.
+
+## Vendor subtotals (dev 0.2.0)
+- Demo Vendor A: 1 unique invoice, 120.00 USD
+- Demo Vendor B: 2 unique invoices, 130.00 USD
