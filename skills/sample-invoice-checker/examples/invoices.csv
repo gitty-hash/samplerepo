@@ -1,0 +1,5 @@
+invoice_id,vendor,amount_usd
+TEST-001,Demo Vendor A,120.00
+TEST-002,Demo Vendor B,80.00
+TEST-001,Demo Vendor A,120.00
+TEST-003,Demo Vendor B,50.00
